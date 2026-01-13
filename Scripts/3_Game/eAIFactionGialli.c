@@ -12,13 +12,13 @@ class eAIFactionGialli : eAIFaction
 		// "other" will see "this" as friendly?
 
 		if (other.IsInherited(eAIFactionVerde)) return true;
-		if (other.IsInherited(eAIFactionVerdeWanted)) return true;
+		//if (other.IsInherited(eAIFactionVerdeWanted)) return true;
 				
 		if (other.IsInherited(eAIFactionBlu)) return true;
-		if (other.IsInherited(eAIFactionBluWanted)) return true;
+		//if (other.IsInherited(eAIFactionBluWanted)) return true;
 
         if (other.IsInherited(eAIFactionRossi)) return true;
-        if (other.IsInherited(eAIFactionRossiWanted)) return true;
+        //if (other.IsInherited(eAIFactionRossiWanted)) return true;
 		
 		
 		if (other.IsInherited(eAIFactionGialli)) return true;
@@ -98,13 +98,13 @@ class eAIFactionGialliElite : eAIFaction
 		// "other" will see "this" as friendly?
 
 		if (other.IsInherited(eAIFactionVerde)) return true;
-		if (other.IsInherited(eAIFactionVerdeWanted)) return true;
+		//if (other.IsInherited(eAIFactionVerdeWanted)) return true;
 				
 		if (other.IsInherited(eAIFactionBlu)) return true;
-		if (other.IsInherited(eAIFactionBluWanted)) return true;
+		//if (other.IsInherited(eAIFactionBluWanted)) return true;
 
         if (other.IsInherited(eAIFactionRossi)) return true;
-        if (other.IsInherited(eAIFactionRossiWanted)) return true;
+        //if (other.IsInherited(eAIFactionRossiWanted)) return true;
 		
 		
 		if (other.IsInherited(eAIFactionGialli)) return true;

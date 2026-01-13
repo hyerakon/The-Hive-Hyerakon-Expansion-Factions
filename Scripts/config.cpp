@@ -2,19 +2,19 @@
 
 class CfgPatches
 {
-	class Hyerakon_Expansion_Factions
+	class TheHive_Hyerakon_Expansion_Factions
 	{
 		requiredAddons[] = {"DayZExpansion_AI_Scripts"};
 	};
 };
 class CfgMods
 {
-	class Hyerakon_Expansion_Factions
+	class TheHive_Hyerakon_Expansion_Factions
 	{
 		action = "";
 		hideName = 0;
 		hidePicture = 0;
-		name = "Hyerakon_Expansion_Factions";
+		name = "The Hive - Hyerakon - Expansion Factions";
 		credits = "DayZ Expansion and Hyerakon";
 		author = "Hyerakon - Luigi Francesco Ricatti";
 		authorID = "";
@@ -27,12 +27,12 @@ class CfgMods
 			class gameScriptModule
 			{
 				value = "";
-				files[] = {"Hyerakon_Expansion_Factions/Scripts/3_Game"};
+				files[] = {"TheHive_Hyerakon_Expansion_Factions/Scripts/3_Game"};
 			};
 			class worldScriptModule
 			{
 				value = "";
-				files[] = {"Hyerakon_Expansion_Factions/Scripts/4_World"};
+				files[] = {"TheHive_Hyerakon_Expansion_Factions/Scripts/4_World"};
 			};
 		};
 	};
