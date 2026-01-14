@@ -3,7 +3,7 @@ class eAIFactionBlu : eAIFaction
 {
 	void eAIFactionBlu()
 	{
-		m_Name = "Brigata Blu";
+		m_Name = '#STR_BLUE_DISPLAYNAME';
         m_Loadout = "BluLoadout";
 	}
 
@@ -32,7 +32,7 @@ class eAIFactionBlu : eAIFaction
 
 	override string GetDisplayName()
 	{
-		return "Brigata Blu";
+		return "#STR_BLUE_DISPLAYNAME";
 	}
 
 	override string GetName()
@@ -55,7 +55,7 @@ class eAIFactionBluWanted : eAIFaction
 {
 	void eAIFactionBluWanted()
 	{
-		m_Name = "Ricercato - Brigata Blu";
+		m_Name = '#STR_BLUE_WANTED_DISPLAYNAME';
         m_Loadout = "BluLoadout";
 	}
 
@@ -69,7 +69,7 @@ class eAIFactionBluWanted : eAIFaction
 
 	override string GetDisplayName()
 	{
-		return "Ricercato - Brigata Blu";
+		return "#STR_BLUE_WANTED_DISPLAYNAME";
 	}
 
 	override string GetName()

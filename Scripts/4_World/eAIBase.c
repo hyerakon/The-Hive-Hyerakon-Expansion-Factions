@@ -1,8 +1,10 @@
-modded class eAIBase {
+modded class eAIBase 
+{
     override void eAI_SetFactionTypeID(int id) {
         super.eAI_SetFactionTypeID(id);
             DiseaseCheck();     
     }
+    
     void DiseaseCheck() {
         
         if (GetModifiersManager()) GetModifiersManager().DeactivateAllModifiers();

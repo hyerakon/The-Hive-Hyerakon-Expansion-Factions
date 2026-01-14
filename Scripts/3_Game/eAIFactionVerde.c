@@ -3,7 +3,7 @@ class eAIFactionVerde : eAIFaction
 {
 	void eAIFactionVerde()
 	{
-		m_Name = "Sopravvissuto";
+		m_Name = '#STR_GREEN_DISPLAYNAME';
         m_Loadout = "SopravvissutoLoadout";
 	}
 
@@ -32,7 +32,7 @@ class eAIFactionVerde : eAIFaction
 
 	override string GetDisplayName()
 	{
-		return "Sopravvissuto";
+		return "#STR_GREEN_DISPLAYNAME";
 	}
 
 	override string GetName()
@@ -55,7 +55,7 @@ class eAIFactionVerdeWanted : eAIFaction
 {
 	void eAIFactionVerdeWanted()
 	{
-		m_Name = "Ricercato - Sopravvissuto";
+		m_Name = '#STR_GREEN_WANTED_DISPLAYNAME';
         m_Loadout = "SopravvissutoLoadout";
 	}
 	
@@ -66,7 +66,7 @@ class eAIFactionVerdeWanted : eAIFaction
 
 	override string GetDisplayName()
 	{
-		return "Ricercato - Sopravvissuto";
+		return "#STR_GREEN_WANTED_DISPLAYNAME";
 	}
 
 	override string GetName()

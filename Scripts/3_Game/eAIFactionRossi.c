@@ -3,7 +3,7 @@ class eAIFactionRossi : eAIFaction
 {
 	void eAIFactionRossi()
 	{
-		m_Name = "Legione Rossa";
+		m_Name = '#STR_RED_DISPLAYNAME';
         m_Loadout = "RossiLoadout";
 	}
 
@@ -31,7 +31,7 @@ class eAIFactionRossi : eAIFaction
 
 	override string GetDisplayName()
 	{
-		return "Legione Rossa";
+		return "#STR_RED_DISPLAYNAME";
 	}
 
 	override string GetName()
@@ -54,7 +54,7 @@ class eAIFactionRossiWanted : eAIFaction
 {
 	void eAIFactionRossiWanted()
 	{
-		m_Name = "Ricercato - L.Rossa";
+		m_Name = '#STR_RED_WANTED_DISPLAYNAME';
         m_Loadout = "RossiLoadout";
 	}
 	
@@ -67,7 +67,7 @@ class eAIFactionRossiWanted : eAIFaction
 
 	override string GetDisplayName()
 	{
-		return "Ricercato - Legione Rossa";
+		return "#STR_RED_WANTED_DIPLAYNAME";
 	}
 
 	override string GetName()

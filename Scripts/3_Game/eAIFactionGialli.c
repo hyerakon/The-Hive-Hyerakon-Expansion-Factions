@@ -3,7 +3,7 @@ class eAIFactionGialli : eAIFaction
 {
 	void eAIFactionGialli()
 	{
-		m_Name = "Caschi Gialli";
+		m_Name = '#STR_YELLOW_DISPLAYNAME';
         m_Loadout = "CaschiGialliLoadout";
 	}
 
@@ -37,7 +37,7 @@ class eAIFactionGialli : eAIFaction
 
 	override string GetDisplayName()
 	{
-		return "Caschi Gialli";
+		return "#STR_YELLOW_DISPLAYNAME";
 	}
 
 	override string GetName()
@@ -60,13 +60,13 @@ class eAIFactionGialliNBC : eAIFactionGialli
 {
 	void eAIFactionGialliNBC()
 	{
-		m_Name = "CG - NBC";
+		m_Name = '#STR_YELLOW_NBC_DISPLAYNAME';
 		m_Loadout = "CaschiGialli_NBC_Loadout";
 	}
 
 	override string GetDisplayName()
 	{
-		return "Ricercatori - Caschi Gialli";
+		return "#STR_YELLOW_NBC_DISPLAYNAME";
 	}
 
 	override string GetName()
@@ -89,7 +89,7 @@ class eAIFactionGialliElite : eAIFaction
 {
 	void eAIFactionGialliElite()
 	{
-		m_Name = "CG - Elite";
+		m_Name = '#STR_YELLOW_ELITE_DISPLAYNAME';
         m_Loadout = "CaschiGialliLoadout";
 	}
 	
@@ -123,7 +123,7 @@ class eAIFactionGialliElite : eAIFaction
 
 	override string GetDisplayName()
 	{
-		return "Elite - Caschi Gialli";
+		return "#STR_YELLOW_ELITE_DISPLAYNAME";
 	}
 
 	override string GetName()
