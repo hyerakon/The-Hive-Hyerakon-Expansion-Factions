@@ -4,7 +4,10 @@ class CfgPatches
 {
 	class TheHive_Hyerakon_Expansion_Factions_Scripts
 	{
-		requiredAddons[] = {"DayZExpansion_AI_Scripts"};
+		requiredAddons[] = 
+		{
+			"DayZExpansion_AI_Scripts"
+		};
 	};
 };
 class CfgMods

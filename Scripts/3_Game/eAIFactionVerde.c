@@ -21,9 +21,6 @@ class eAIFactionVerde : eAIFaction
 		if (other.IsInherited(eAIFactionGialli)) return true;
 
         
-		if (other.IsInherited(eAIFactionEast)) return true; 
-		if (other.IsInherited(eAIFactionWest)) return true;
-		if (other.IsInherited(eAIFactionCivilian)) return true;
 		if (other.IsGuard()) return true;
 		if (other.IsPassive()) return true;		
 

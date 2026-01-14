@@ -25,9 +25,6 @@ class eAIFactionGialli : eAIFaction
 		if (other.IsInherited(eAIFactionGialliElite)) return true;
 		
         
-		if (other.IsInherited(eAIFactionEast)) return true; 
-		if (other.IsInherited(eAIFactionWest)) return true;
-		if (other.IsInherited(eAIFactionCivilian)) return true;
 		if (other.IsGuard()) return true;
 		if (other.IsPassive()) return true;
 		
@@ -111,9 +108,6 @@ class eAIFactionGialliElite : eAIFaction
 		if (other.IsInherited(eAIFactionGialliElite)) return true;
 		
         
-		if (other.IsInherited(eAIFactionEast)) return true; 
-		if (other.IsInherited(eAIFactionWest)) return true;
-		if (other.IsInherited(eAIFactionCivilian)) return true;
 		if (other.IsGuard()) return true;
 		if (other.IsPassive()) return true;
 		
