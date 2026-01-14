@@ -3,7 +3,7 @@ class eAIFactionRossi : eAIFaction
 {
 	void eAIFactionRossi()
 	{
-		m_Name = '#STR_RED_DISPLAYNAME';
+		m_Name = "#STR_RED_DISPLAYNAME";
         m_Loadout = "RossiLoadout";
 	}
 
@@ -51,7 +51,7 @@ class eAIFactionRossiWanted : eAIFaction
 {
 	void eAIFactionRossiWanted()
 	{
-		m_Name = '#STR_RED_WANTED_DISPLAYNAME';
+		m_Name = "#STR_RED_WANTED_DISPLAYNAME";
         m_Loadout = "RossiLoadout";
 	}
 	
@@ -64,7 +64,7 @@ class eAIFactionRossiWanted : eAIFaction
 
 	override string GetDisplayName()
 	{
-		return "#STR_RED_WANTED_DIPLAYNAME";
+		return "#STR_RED_WANTED_DISPLAYNAME";
 	}
 
 	override string GetName()

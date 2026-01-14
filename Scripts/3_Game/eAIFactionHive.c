@@ -3,7 +3,7 @@ class eAIFactionHive : eAIFaction
 {
     void eAIFactionHive()
     {
-        m_Name = '#STR_HIVE_DIPLAYNAME';
+        m_Name = "#STR_HIVE_DISPLAYNAME";
         m_Loadout = "ParassitesLoadout";
         m_MeleeDamageMultiplier = 2.0;
         m_DisableWeaponPickup = true;
@@ -31,7 +31,7 @@ class eAIFactionHive : eAIFaction
 
 	override string GetDisplayName()
 	{
-		return "#STR_HIVE_DIPLAYNAME";
+		return "#STR_HIVE_DISPLAYNAME";
 	}
 
 	override string GetName()
@@ -45,7 +45,7 @@ class eAIFactionHiveElite : eAIFactionHive
 {
     void eAIFactionHiveElite()
     {
-        m_Name = '#STR_HIVE_ELITE_DIPLAYNAME';
+        m_Name = "#STR_HIVE_ELITE_DISPLAYNAME";
         m_Loadout = "ParassitesLoadout";
         m_MeleeDamageMultiplier = 2.0;
         m_DisableWeaponPickup = true;
@@ -56,7 +56,7 @@ class eAIFactionHiveElite : eAIFactionHive
 
 	override string GetDisplayName()
 	{
-		return "#STR_HIVE_ELITE_DIPLAYNAME";
+		return "#STR_HIVE_ELITE_DISPLAYNAME";
 	}
 
 	override string GetName()

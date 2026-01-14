@@ -3,7 +3,7 @@ class eAIFactionVerde : eAIFaction
 {
 	void eAIFactionVerde()
 	{
-		m_Name = '#STR_GREEN_DISPLAYNAME';
+		m_Name = "#STR_GREEN_DISPLAYNAME";
         m_Loadout = "SopravvissutoLoadout";
 	}
 
@@ -52,7 +52,7 @@ class eAIFactionVerdeWanted : eAIFaction
 {
 	void eAIFactionVerdeWanted()
 	{
-		m_Name = '#STR_GREEN_WANTED_DISPLAYNAME';
+		m_Name = "#STR_GREEN_WANTED_DISPLAYNAME";
         m_Loadout = "SopravvissutoLoadout";
 	}
 	

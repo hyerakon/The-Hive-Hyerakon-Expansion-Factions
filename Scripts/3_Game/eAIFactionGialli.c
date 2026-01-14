@@ -3,7 +3,7 @@ class eAIFactionGialli : eAIFaction
 {
 	void eAIFactionGialli()
 	{
-		m_Name = '#STR_YELLOW_DISPLAYNAME';
+		m_Name = "#STR_YELLOW_DISPLAYNAME";
         m_Loadout = "CaschiGialliLoadout";
 	}
 
@@ -57,7 +57,7 @@ class eAIFactionGialliNBC : eAIFactionGialli
 {
 	void eAIFactionGialliNBC()
 	{
-		m_Name = '#STR_YELLOW_NBC_DISPLAYNAME';
+		m_Name = "#STR_YELLOW_NBC_DISPLAYNAME";
 		m_Loadout = "CaschiGialli_NBC_Loadout";
 	}
 
@@ -86,7 +86,7 @@ class eAIFactionGialliElite : eAIFaction
 {
 	void eAIFactionGialliElite()
 	{
-		m_Name = '#STR_YELLOW_ELITE_DISPLAYNAME';
+		m_Name = "#STR_YELLOW_ELITE_DISPLAYNAME";
         m_Loadout = "CaschiGialliLoadout";
 	}
 	
