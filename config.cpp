@@ -2,7 +2,7 @@
 
 class CfgPatches
 {
-	class TheHive_Hyerakon_Expansion_Factions_Scripts
+	class TheHive_Hyerakon_Expansion_Factions
 	{
 		requiredAddons[] = 
 		{

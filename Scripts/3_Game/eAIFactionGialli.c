@@ -5,6 +5,8 @@ class eAIFactionGialli : eAIFaction
 	{
 		m_Name = "#STR_YELLOW_DISPLAYNAME";
         m_Loadout = "CaschiGialliLoadout";
+
+		Print("[HYERAKON FACTION] Registered Faction: " + m_Name);
 	}
 
 	override bool IsFriendly(notnull eAIFaction other)
@@ -49,6 +51,8 @@ class eAIFactionGialliGod : eAIFactionGialli
 	void eAIFactionGialliGod()
 	{
 		m_IsInvincible = true;
+
+		Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (God)");
 	}
 };
 
@@ -59,6 +63,8 @@ class eAIFactionGialliNBC : eAIFactionGialli
 	{
 		m_Name = "#STR_YELLOW_NBC_DISPLAYNAME";
 		m_Loadout = "CaschiGialli_NBC_Loadout";
+
+		Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (NBC)");
 	}
 
 	override string GetDisplayName()
@@ -78,6 +84,8 @@ class eAIFactionGialliGodNBC : eAIFactionGialliNBC
 	void eAIFactionGialliGodNBC()
 	{
 		m_IsInvincible = true;
+
+		Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (God NBC)");
 	}
 };
 
@@ -88,6 +96,8 @@ class eAIFactionGialliElite : eAIFaction
 	{
 		m_Name = "#STR_YELLOW_ELITE_DISPLAYNAME";
         m_Loadout = "CaschiGialliLoadout";
+
+		Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (Elite)");
 	}
 	
 	override bool IsFriendly(notnull eAIFaction other)
@@ -132,5 +142,7 @@ class eAIFactionGialliEliteGod : eAIFactionGialliElite
 	void eAIFactionGialliEliteGod()
 	{
 		m_IsInvincible = true;
+
+		Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (Elite God)");
 	}
 };

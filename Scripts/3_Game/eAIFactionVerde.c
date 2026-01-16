@@ -5,6 +5,8 @@ class eAIFactionVerde : eAIFaction
 	{
 		m_Name = "#STR_GREEN_DISPLAYNAME";
         m_Loadout = "SopravvissutoLoadout";
+
+		Print("[HYERAKON FACTION] Registered Faction: " + m_Name);
 	}
 
 	override bool IsFriendly(notnull eAIFaction other)
@@ -44,6 +46,8 @@ class eAIFactionVerdeGod : eAIFactionVerde
 	void eAIFactionVerdeGod()
 	{
 		m_IsInvincible = true;
+
+		Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (God)");
 	}
 };
 
@@ -54,6 +58,8 @@ class eAIFactionVerdeWanted : eAIFaction
 	{
 		m_Name = "#STR_GREEN_WANTED_DISPLAYNAME";
         m_Loadout = "SopravvissutoLoadout";
+
+		Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (Wanted)");
 	}
 	
 	override bool IsFriendly(notnull eAIFaction other)

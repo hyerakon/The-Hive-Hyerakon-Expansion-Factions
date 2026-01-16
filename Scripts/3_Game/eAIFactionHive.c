@@ -9,6 +9,8 @@ class eAIFactionHive : eAIFaction
         m_DisableWeaponPickup = true;
         m_HasUnlimitedStamina = true;
 		m_FactionModifier = "brain";
+
+		Print("[HYERAKON FACTION] Registered Faction: " + m_Name);
 	}
 
 	override bool HasModifier()
@@ -52,6 +54,8 @@ class eAIFactionHiveElite : eAIFactionHive
         m_HasUnlimitedStamina = true;
 		m_MeleeYeetForce = 15.0;
 		m_MeleeYeetFactors = "0.5 1 0.5";
+
+		Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (Elite)");
 	}
 
 	override string GetDisplayName()

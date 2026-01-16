@@ -5,6 +5,8 @@ class eAIFactionRossi : eAIFaction
 	{
 		m_Name = "#STR_RED_DISPLAYNAME";
         m_Loadout = "RossiLoadout";
+
+		Print("[HYERAKON FACTION] Registered Faction: " + m_Name);
 	}
 
 	override bool IsFriendly(notnull eAIFaction other)
@@ -43,6 +45,8 @@ class eAIFactionRossiGod : eAIFactionRossi
 	void eAIFactionRossiGod()
 	{
 		m_IsInvincible = true;
+
+		Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (God)");
 	}
 };
 
@@ -53,6 +57,8 @@ class eAIFactionRossiWanted : eAIFaction
 	{
 		m_Name = "#STR_RED_WANTED_DISPLAYNAME";
         m_Loadout = "RossiLoadout";
+
+		Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (Wanted)");
 	}
 	
 	override bool IsFriendly(notnull eAIFaction other)
