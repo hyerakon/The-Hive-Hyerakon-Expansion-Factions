@@ -3,14 +3,13 @@ class eAIFactionHive : eAIFaction
 {
     void eAIFactionHive()
     {
-        m_Name = "#STR_HIVE_DISPLAYNAME";
         m_Loadout = "ParassitesLoadout";
         m_MeleeDamageMultiplier = 2.0;
         m_DisableWeaponPickup = true;
         m_HasUnlimitedStamina = true;
 		m_FactionModifier = "brain";
 
-		Print("[HYERAKON FACTION] Registered Faction: " + m_Name);
+		//Print("[HYERAKON FACTION] Registered Faction: " + m_Name);
 	}
 
 	override bool HasModifier()
@@ -35,11 +34,6 @@ class eAIFactionHive : eAIFaction
 	{
 		return "#STR_HIVE_DISPLAYNAME";
 	}
-
-	override string GetName()
-	{
-		return m_Name;
-	}
 };
 
 [eAIRegisterFaction(eAIFactionHiveElite)]
@@ -47,7 +41,6 @@ class eAIFactionHiveElite : eAIFactionHive
 {
     void eAIFactionHiveElite()
     {
-        m_Name = "#STR_HIVE_ELITE_DISPLAYNAME";
         m_Loadout = "ParassitesLoadout";
         m_MeleeDamageMultiplier = 2.0;
         m_DisableWeaponPickup = true;
@@ -55,17 +48,12 @@ class eAIFactionHiveElite : eAIFactionHive
 		m_MeleeYeetForce = 15.0;
 		m_MeleeYeetFactors = "0.5 1 0.5";
 
-		Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (Elite)");
+		//Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (Elite)");
 	}
 
 	override string GetDisplayName()
 	{
 		return "#STR_HIVE_ELITE_DISPLAYNAME";
-	}
-
-	override string GetName()
-	{
-		return m_Name;
 	}
 };
 

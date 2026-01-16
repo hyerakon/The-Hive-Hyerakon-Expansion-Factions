@@ -3,10 +3,9 @@ class eAIFactionVerde : eAIFaction
 {
 	void eAIFactionVerde()
 	{
-		m_Name = "#STR_GREEN_DISPLAYNAME";
         m_Loadout = "SopravvissutoLoadout";
 
-		Print("[HYERAKON FACTION] Registered Faction: " + m_Name);
+		//Print("[HYERAKON FACTION] Registered Faction: " + m_Name);
 	}
 
 	override bool IsFriendly(notnull eAIFaction other)
@@ -33,11 +32,6 @@ class eAIFactionVerde : eAIFaction
 	{
 		return "#STR_GREEN_DISPLAYNAME";
 	}
-
-	override string GetName()
-	{
-		return m_Name;
-	}
 };
 
 [eAIRegisterFaction(eAIFactionVerdeGod)]
@@ -47,7 +41,7 @@ class eAIFactionVerdeGod : eAIFactionVerde
 	{
 		m_IsInvincible = true;
 
-		Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (God)");
+		//Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (God)");
 	}
 };
 
@@ -56,10 +50,9 @@ class eAIFactionVerdeWanted : eAIFaction
 {
 	void eAIFactionVerdeWanted()
 	{
-		m_Name = "#STR_GREEN_WANTED_DISPLAYNAME";
         m_Loadout = "SopravvissutoLoadout";
 
-		Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (Wanted)");
+		//Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (Wanted)");
 	}
 	
 	override bool IsFriendly(notnull eAIFaction other)
@@ -70,10 +63,5 @@ class eAIFactionVerdeWanted : eAIFaction
 	override string GetDisplayName()
 	{
 		return "#STR_GREEN_WANTED_DISPLAYNAME";
-	}
-
-	override string GetName()
-	{
-		return m_Name;
 	}
 };

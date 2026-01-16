@@ -3,10 +3,9 @@ class eAIFactionGialli : eAIFaction
 {
 	void eAIFactionGialli()
 	{
-		m_Name = "#STR_YELLOW_DISPLAYNAME";
-        m_Loadout = "CaschiGialliLoadout";
+		m_Loadout = "CaschiGialliLoadout";
 
-		Print("[HYERAKON FACTION] Registered Faction: " + m_Name);
+		////Print("[HYERAKON FACTION] Registered Faction: " + m_Name);
 	}
 
 	override bool IsFriendly(notnull eAIFaction other)
@@ -38,11 +37,6 @@ class eAIFactionGialli : eAIFaction
 	{
 		return "#STR_YELLOW_DISPLAYNAME";
 	}
-
-	override string GetName()
-	{
-		return m_Name;
-	}
 };
 
 [eAIRegisterFaction(eAIFactionGialliGod)]
@@ -52,7 +46,7 @@ class eAIFactionGialliGod : eAIFactionGialli
 	{
 		m_IsInvincible = true;
 
-		Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (God)");
+		//Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (God)");
 	}
 };
 
@@ -61,20 +55,15 @@ class eAIFactionGialliNBC : eAIFactionGialli
 {
 	void eAIFactionGialliNBC()
 	{
-		m_Name = "#STR_YELLOW_NBC_DISPLAYNAME";
+		
 		m_Loadout = "CaschiGialli_NBC_Loadout";
 
-		Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (NBC)");
+		//Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (NBC)");
 	}
 
 	override string GetDisplayName()
 	{
 		return "#STR_YELLOW_NBC_DISPLAYNAME";
-	}
-
-	override string GetName()
-	{
-		return m_Name;
 	}
 };
 
@@ -85,7 +74,7 @@ class eAIFactionGialliGodNBC : eAIFactionGialliNBC
 	{
 		m_IsInvincible = true;
 
-		Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (God NBC)");
+		//Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (God NBC)");
 	}
 };
 
@@ -94,10 +83,10 @@ class eAIFactionGialliElite : eAIFaction
 {
 	void eAIFactionGialliElite()
 	{
-		m_Name = "#STR_YELLOW_ELITE_DISPLAYNAME";
+		
         m_Loadout = "CaschiGialliLoadout";
 
-		Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (Elite)");
+		//Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (Elite)");
 	}
 	
 	override bool IsFriendly(notnull eAIFaction other)
@@ -129,11 +118,6 @@ class eAIFactionGialliElite : eAIFaction
 	{
 		return "#STR_YELLOW_ELITE_DISPLAYNAME";
 	}
-
-	override string GetName()
-	{
-		return m_Name;
-	}
 };
 
 [eAIRegisterFaction(eAIFactionGialliEliteGod)]
@@ -143,6 +127,6 @@ class eAIFactionGialliEliteGod : eAIFactionGialliElite
 	{
 		m_IsInvincible = true;
 
-		Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (Elite God)");
+		//Print("[HYERAKON FACTION] Registered Faction: " + m_Name + " (Elite God)");
 	}
 };
