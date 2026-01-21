@@ -74,10 +74,11 @@ Unauthorized reuploads or use outside the intended server environment are not pe
 
 **Repack not permitted.**
 
-## Discord
+## Contacts
 
-Join the community and get support:  
-[https://discord.gg/YNqKNhaUrQ](https://discord.gg/YNqKNhaUrQ)
+* **Web Site**: [https://www.thehivemind.it/](https://www.thehivemind.it/)
+* **Web Site DayZ**: [https://dayz.thehivemind.it/](https://dayz.thehivemind.it/)
+* **Discord**: [https://discord.gg/YNqKNhaUrQ](https://discord.gg/YNqKNhaUrQ)
 
 
 ## Installation
