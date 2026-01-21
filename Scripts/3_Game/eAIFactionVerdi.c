@@ -1,7 +1,7 @@
-[eAIRegisterFaction(eAIFactionVerde)]
-class eAIFactionVerde : eAIFaction
+[eAIRegisterFaction(eAIFactionVerdi)]
+class eAIFactionVerdi : eAIFaction
 {
-	void eAIFactionVerde()
+	void eAIFactionVerdi()
 	{
         m_Loadout = "SopravvissutoLoadout";
 
@@ -12,7 +12,7 @@ class eAIFactionVerde : eAIFaction
 	{
 		// "other" will see "this" as friendly?		
 		
-		if (other.IsInherited(eAIFactionVerde)) return true;
+		if (other.IsInherited(eAIFactionVerdi)) return true;
 		
 		if (other.IsInherited(eAIFactionBlu)) return true;
 
@@ -34,10 +34,10 @@ class eAIFactionVerde : eAIFaction
 	}
 };
 
-[eAIRegisterFaction(eAIFactionVerdeGod)]
-class eAIFactionVerdeGod : eAIFactionVerde
+[eAIRegisterFaction(eAIFactionVerdiGod)]
+class eAIFactionVerdiGod : eAIFactionVerdi
 {
-	void eAIFactionVerdeGod()
+	void eAIFactionVerdiGod()
 	{
 		m_IsInvincible = true;
 
@@ -45,10 +45,10 @@ class eAIFactionVerdeGod : eAIFactionVerde
 	}
 };
 
-[eAIRegisterFaction(eAIFactionVerdeWanted)]
-class eAIFactionVerdeWanted : eAIFaction
+[eAIRegisterFaction(eAIFactionVerdiWanted)]
+class eAIFactionVerdiWanted : eAIFaction
 {
-	void eAIFactionVerdeWanted()
+	void eAIFactionVerdiWanted()
 	{
         m_Loadout = "SopravvissutoLoadout";
 

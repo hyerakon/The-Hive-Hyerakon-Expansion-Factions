@@ -12,7 +12,7 @@ class eAIFactionRossi : eAIFaction
 	{
 		// "other" will see "this" as friendly?		
 		
-		if (other.IsInherited(eAIFactionVerde)) return true;
+		if (other.IsInherited(eAIFactionVerdi)) return true;
 		
 		if (other.IsInherited(eAIFactionRossi)) return true;
 		if (other.IsInherited(eAIFactionRossiWanted)) return true;
