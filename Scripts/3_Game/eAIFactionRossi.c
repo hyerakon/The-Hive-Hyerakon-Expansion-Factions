@@ -49,6 +49,11 @@ class eAIFactionRossi : eAIFaction
 	{
 		return extractLoadout();
 	}
+
+	override string GetPlayerLoadout() 
+	{
+		return "SopravvissutoRosso_Loadout";
+	}
 };
 
 [eAIRegisterFaction(eAIFactionRossiGod)]
@@ -101,5 +106,10 @@ class eAIFactionRossiWanted : eAIFaction
 	override string GetDefaultLoadout()
 	{
 		return extractLoadout();
+	}
+
+	override string GetPlayerLoadout() 
+	{
+		return "SopravvissutoRosso_Loadout";
 	}
 };

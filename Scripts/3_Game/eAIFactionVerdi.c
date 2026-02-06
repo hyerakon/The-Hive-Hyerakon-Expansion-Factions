@@ -32,6 +32,16 @@ class eAIFactionVerdi : eAIFaction
 	{
 		return "#STR_GREEN_DISPLAYNAME";
 	}
+
+	override string GetDefaultLoadout()
+	{
+		return m_Loadout;
+	}
+
+	string GetPlayerLoadout() 
+	{
+		return m_Loadout;
+	}
 };
 
 [eAIRegisterFaction(eAIFactionVerdiGod)]
@@ -63,5 +73,15 @@ class eAIFactionVerdiWanted : eAIFaction
 	override string GetDisplayName()
 	{
 		return "#STR_GREEN_WANTED_DISPLAYNAME";
+	}
+
+	override string GetDefaultLoadout()
+	{
+		return m_Loadout;
+	}
+
+	string GetPlayerLoadout() 
+	{
+		return m_Loadout;
 	}
 };

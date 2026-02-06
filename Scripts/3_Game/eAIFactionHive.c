@@ -34,6 +34,16 @@ class eAIFactionHive : eAIFaction
 	{
 		return "#STR_HIVE_DISPLAYNAME";
 	}
+
+	override string GetDefaultLoadout()
+	{
+		return m_Loadout;
+	}
+
+	string GetPlayerLoadout() 
+	{
+		return m_Loadout;
+	}
 };
 
 [eAIRegisterFaction(eAIFactionHiveElite)]

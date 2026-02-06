@@ -28,3 +28,8 @@ modded class eAIFaction
 	      areaexposure
 	      flies
 		*/
+
+	string GetPlayerLoadout() 
+	{
+		return m_Loadout;
+	}

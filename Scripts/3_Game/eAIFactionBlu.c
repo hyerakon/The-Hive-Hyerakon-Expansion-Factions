@@ -49,6 +49,11 @@ class eAIFactionBlu : eAIFaction
 	{
 		return extractLoadout();
 	}
+
+	string GetPlayerLoadout() 
+	{
+		return "SopravvissutoLoadout";
+	}
 };
 
 [eAIRegisterFaction(eAIFactionBluGod)]
@@ -100,5 +105,10 @@ class eAIFactionBluWanted : eAIFaction
 	override string GetDefaultLoadout()
 	{
 		return extractLoadout();
+	}
+
+	string GetPlayerLoadout() 
+	{
+		return "SopravvissutoLoadout";
 	}
 };

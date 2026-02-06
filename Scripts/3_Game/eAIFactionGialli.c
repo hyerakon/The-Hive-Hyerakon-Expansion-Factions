@@ -37,6 +37,16 @@ class eAIFactionGialli : eAIFaction
 	{
 		return "#STR_YELLOW_DISPLAYNAME";
 	}
+
+	override string GetDefaultLoadout()
+	{
+		return m_Loadout;
+	}
+
+	string GetPlayerLoadout() 
+	{
+		return m_Loadout;
+	}
 };
 
 [eAIRegisterFaction(eAIFactionGialliGod)]
@@ -117,6 +127,16 @@ class eAIFactionGialliElite : eAIFaction
 	override string GetDisplayName()
 	{
 		return "#STR_YELLOW_ELITE_DISPLAYNAME";
+	}
+
+	override string GetDefaultLoadout()
+	{
+		return m_Loadout;
+	}
+
+	string GetPlayerLoadout() 
+	{
+		return m_Loadout;
 	}
 };
 
