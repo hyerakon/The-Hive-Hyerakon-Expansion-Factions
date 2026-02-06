@@ -2,7 +2,7 @@
 
 class CfgPatches
 {
-	class TheHive_Hyerakon_Expansion_Factions
+	class TheHive_Expansion_Factions_Scripts
 	{
 		requiredAddons[] = 
 		{
@@ -12,7 +12,7 @@ class CfgPatches
 };
 class CfgMods
 {
-	class TheHive_Hyerakon_Expansion_Factions
+	class TheHive_Expansion_Factions
 	{
 		action = "";
 		hideName = 0;
@@ -30,12 +30,12 @@ class CfgMods
 			class gameScriptModule
 			{
 				value = "";
-				files[] = {"TheHive_Hyerakon_Expansion_Factions/Scripts/3_Game"};
+				files[] = {"TheHive_Expansion_Factions/Scripts/3_Game"};
 			};
 			class worldScriptModule
 			{
 				value = "";
-				files[] = {"TheHive_Hyerakon_Expansion_Factions/Scripts/4_World"};
+				files[] = {"TheHive_Expansion_Factions/Scripts/4_World"};
 			};
 		};
 	};
