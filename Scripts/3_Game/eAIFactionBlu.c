@@ -50,9 +50,9 @@ class eAIFactionBlu : eAIFaction
 		return extractLoadout();
 	}
 
-	string GetPlayerLoadout() 
+	override string GetPlayerLoadout() 
 	{
-		return "SopravvissutoLoadout";
+		return "SopravvissutoBlu_Loadout";
 	}
 };
 
@@ -107,8 +107,8 @@ class eAIFactionBluWanted : eAIFaction
 		return extractLoadout();
 	}
 
-	string GetPlayerLoadout() 
+	override string GetPlayerLoadout() 
 	{
-		return "SopravvissutoLoadout";
+		return "SopravvissutoBlu_Loadout";
 	}
 };

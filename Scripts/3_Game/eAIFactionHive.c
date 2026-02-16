@@ -40,7 +40,7 @@ class eAIFactionHive : eAIFaction
 		return m_Loadout;
 	}
 
-	string GetPlayerLoadout() 
+	override string GetPlayerLoadout() 
 	{
 		return m_Loadout;
 	}

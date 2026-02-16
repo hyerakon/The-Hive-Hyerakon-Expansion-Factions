@@ -38,7 +38,7 @@ class eAIFactionVerdi : eAIFaction
 		return m_Loadout;
 	}
 
-	string GetPlayerLoadout() 
+	override string GetPlayerLoadout() 
 	{
 		return m_Loadout;
 	}
@@ -80,7 +80,7 @@ class eAIFactionVerdiWanted : eAIFaction
 		return m_Loadout;
 	}
 
-	string GetPlayerLoadout() 
+	override string GetPlayerLoadout() 
 	{
 		return m_Loadout;
 	}

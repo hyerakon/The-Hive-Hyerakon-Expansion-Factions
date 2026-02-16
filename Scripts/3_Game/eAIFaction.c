@@ -9,6 +9,11 @@ modded class eAIFaction
 	string FactionModifier(){
 		return m_FactionModifier;
 	}
+
+	string GetPlayerLoadout() 
+	{
+		return m_Loadout;
+	}
 };
 
 		/*	
@@ -29,7 +34,3 @@ modded class eAIFaction
 	      flies
 		*/
 
-	string GetPlayerLoadout() 
-	{
-		return m_Loadout;
-	}

@@ -43,7 +43,7 @@ class eAIFactionGialli : eAIFaction
 		return m_Loadout;
 	}
 
-	string GetPlayerLoadout() 
+	override string GetPlayerLoadout() 
 	{
 		return m_Loadout;
 	}
@@ -134,7 +134,7 @@ class eAIFactionGialliElite : eAIFaction
 		return m_Loadout;
 	}
 
-	string GetPlayerLoadout() 
+	override string GetPlayerLoadout() 
 	{
 		return m_Loadout;
 	}
